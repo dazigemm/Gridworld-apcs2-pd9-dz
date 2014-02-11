@@ -16,7 +16,7 @@ public class DancingBug extends Bug {
 	    move();
 	else { 
 	    for (int t = 0; t < turns[index]; t++) 
-	    turn();
+		turn();
         }
     }
 }
