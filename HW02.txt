@@ -1,0 +1,23 @@
+DANIEL ZABARI
+APCS2 pd 09
+HW02
+2014-02-11
+
+1. What is the role of the instance variable sideLength?
+	It serves as the sidelength for the box, the BoxBug creates.
+2. What is the role of the instance variable steps?
+	Instance variable steps, is the amount of steps the BoxBug has taken along the side of the box.
+3. Why is the turn method called twice when steps becomes equal to
+sideLength?
+	Turn is called twice because of each call to turn turns the BoxBug 45 degrees and we would like it to turn 90.
+4. Why can the move method be called in the BoxBug class when there is no
+move method in the BoxBug code?
+	BoxBug extends Bug, which DOES have a move method.
+5. After a BoxBug is constructed, will the size of its square pattern always be the
+same? Why or why not?
+	No it will not.  If there is a wall in the way, it will turn at the wall, leaving its box the wrong side length.
+6. Can the path a BoxBug travels ever change? Why or why not?
+	Yes it can.  For example, if the BoxBug runs into an obstacle, its path will change.
+7. When will the value of steps be zero?
+	The value of steps will be zero when the BoxBug is instantiated, and right after it has made a turn.
+

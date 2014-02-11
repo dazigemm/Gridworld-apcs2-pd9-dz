@@ -6,7 +6,7 @@ public class DancingBugRunner {
 	ActorWorld world = new ActorWorld();
 	int[] a = new int[5];
 	for (int i = 0; i < 5; i++) {
-	    a[i] = (int)(3 *  Math.random());
+	    a[i] = (int)(5 *  Math.random());
 	}
 
 	DancingBug alice = new DancingBug(a);

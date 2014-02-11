@@ -12,9 +12,11 @@ public class DancingBug extends Bug {
     public void act() {
 	if (index > turns.length) 
 	    index = 0;
-	for (int t = 0; t < turns[index]; t++) 
-	    turn();
 	if (canMove())
 	    move();
+	else { 
+	    for (int t = 0; t < turns[index]; t++) 
+	    turn();
+        }
     }
 }
